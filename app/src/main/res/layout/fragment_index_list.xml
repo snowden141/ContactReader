@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.example.shobh.contactreader.IndexList">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A-E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="f-j"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="k-o"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="p-t"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="u-z"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:background="@color/colorPrimary"/>
+
+</FrameLayout>
